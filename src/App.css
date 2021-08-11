@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Pacifico&display=swap');
+
+
+.wrapper{
+  text-align: center;
+  align-items: center;
+}
+.todo-list{
+  padding: auto;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.Edit{
+  margin-right: -48px;
+    margin-left: 8px;
+    border: none;
+    border-radius: 13px;
+    background-color: #c0dfff;
+}
+.Delete{
+  margin-left: 55px;
+    margin-right: -36px;
+    border: none;
+    border-radius: 13px;
+    background-color: #c0dfff;
+}
+.list1{
+  background-color: grey;
+  border: none;
+}
+.MAIN{
+  border: 1px solid grey;
+  width: 500px;
+  margin: auto;
+  margin-top: 20px;
+  border-top: none;
+  border-bottom: none;
+}
+.para{
+  font-family: 'Pacifico', cursive;
+  margin-top: -22px;
+  margin-bottom: 26px;
+
+}
+
+body{
+  background-color: rgb(241 240 237);
+
+}
+#mainInput{
+  border: none;
+  border-radius: 23px;
+  padding: 8px 35px;
+  outline: none;
+}
+#add-Button{
+  border: none;
+    border-radius: 34px;
+    margin: 5px 20px;
+    background: #c0dfff;
+    padding: 5px 11px;
+    cursor: pointer;
+}
+#main-heading{
+  font-family: 'Merriweather', serif;
+}
